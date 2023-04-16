@@ -1,0 +1,92 @@
+body {
+    background-color: #232526;
+}
+
+.main-div {
+    padding: 20px;
+    margin: 100px 700px;
+    background-color: #414345;
+    width: 750px;
+    height: 750px;
+    position:fixed;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+}
+
+.title-div {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-todo-list {
+    font-size: 40px;
+}
+
+.icon-todo-list {
+    margin: 20px;
+}
+
+.input-task {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-list {
+    height: 560px;
+    overflow-y: scroll;
+}
+
+.task-list::-webkit-scrollbar {
+    display: none;
+}
+
+.addtask, .adddescription, .edit-task, .edit-description {
+    margin-left: 10px;
+    padding: 12px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.task-summary {
+    margin-top: 10px;
+    width: 750px;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: -3px -3px;
+}
+
+.edited {
+    margin-top: 10px;
+    padding: 10px;
+    height: 110px;
+    background-color: darkgray;
+    border-radius: 10px;
+    box-shadow: -3px -3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-card {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-add {
+    margin: 0px;
+}
+
+.icon-edit, .icon-delete {
+    width: 50px;
+}
+
+.icon-save, .icon-cancel {
+    margin-top: 10px;
+}
+
+.icon-save-cancel {
+    margin-top: -10px;
+}
